@@ -1,42 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>118140077-Muhammad Tyaz Gagaman</title>
+        <link rel="stylesheet" href="style.sass">
     </head>
+    
     <body>
-        
-    <section id="header">
-        <nav class="navbar">
-            <div class="left">
-                <img src="#" alt="Logos">
+        <header>
+            <div>
+                <h1>Tugas Praktikum 1 Pemrograman Web</h1>
             </div>
-            <div class="right">
-                <ul class="flex">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Galery</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+        </header>
+        <div class="kolom">
+            <div class="kolom1">
+                <p>Navigasi</p>
+                <ul>
+                    <li><a href="#">Artikel</a></li>
+                    <li><a href="#">Apa itu web?</a></li>
+                    <li><a href="#">Form Biodata</a></li>
                 </ul>
             </div>
-        </nav>
-
-        <div class="banner">
-            <div class="flex">
-                <div class="text-banner">
-                    <h1>Hello !!</h1>
-                    <p>Saya Nestiawan Ferdiyanto</p>
-                    <span>NIM. 118140190 dari Teknik Informatika</span>
+            <div class="kolom2">
+                <div>
+                    <h2>Apa yang dimaksud dengan web?</h2>
+                    <h3>Website dapat diartikan sebagai suatu kumpulan-kumpulan halaman yang menampilkan berbagai macam informasi teks, data, gambar diam ataupun bergerak, data animasi, suara, video maupun gabungan dari semuanya, baik itu yang bersifat statis maupun yang dinamis, dimana membentuk satu rangkaian bangunan yang saling berkaitan</h3>
                 </div>
-                <div class="images-banner">
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <img src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg" alt="img-nest" width="75%" height="90%">
+                <br>
+                <div>
+                    <h2>Biodata Diri</h2>
+        
+                    <form action="" method="post">
+                        <div>
+                            <label for="">Nama</label>
+                            <input name="nama" type="text">
+                        </div>
+        
+                        <div>
+                            <label for="">Jenis Kelamin</label>
+                            <select name="jenisKelamin">
+                                <option disabled selected> Pilih Jenis Kelamin </option>
+                                <option value="Laki-laki"> Laki-laki </option>
+                                <option value="Perempuan"> Perempuan </option>
+                            </select>
+                        </div>
+        
+                        <div>
+                            <label for="">Nomor Telpon</label>
+                            <input name="noTelpon" type="number">
+                        </div>
+        
+                        <div>
+                            <label for="">Alamat</label>
+                            <textarea name="alamat" rows="2"></textarea>
+                        </div>
+        
+                        <input name="simpan" type="submit" value="Simpan"/> 
+                    </form>
                 </div>
             </div>
         </div>
-    </section>
+        <footer>
+            <div>
+                <p>By: Muhammad Tyaz Gagaman (118140077)</p>
+            </div>
+        </footer>
     </body>
-
 </html>
