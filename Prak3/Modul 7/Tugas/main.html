@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>118140077_Tugas_Modul7</title>
+    </head>
+    <body>
+        <h1>Data Mahasiswa</h1>
+        <form action="prosesTambah.php" method="POST">
+            NRP        : <input type="text" name="nrp" size="35" maxlength="50"><br>
+            Nama       : <input type="text" name="nama" size="35" maxlength="50"><br>
+            Alamat     : <input type="textarea" name="alamat" rows="5" cols="30"><br>
+            ID Jurusan : <input type="text" name="id_jur" size="35" maxlength="50"><br>
+            <input type="submit" value="Simpan">
+        </form>
+        
+        <br>
+        <div>===========================</div>
+
+        <h1>Search Data</h1>
+        <form action="cariData.php" method="POST">
+            Nama       : <input type="text" name="nama" size="35" maxlength="50"><br>
+            <input type="submit" value="Cari">
+        </form>
+    </body>
+</html>
