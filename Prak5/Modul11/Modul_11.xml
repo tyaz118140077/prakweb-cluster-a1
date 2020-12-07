@@ -1,0 +1,22 @@
+<?xml version="1.0">
+<dataDiri>
+    <nama>
+        <awal>Muhammad Tyaz</awal>
+        <akhir>Gagaman</akhir>
+    </nama>
+
+    <jenisKelamin>Laki-Laki</jenisKelamin>
+
+    <hobby>rebahan</hobby>
+
+    <alamat>
+        <jalan>Pulau Pisang II</jalan>
+        <kelurahan>Perumnas Way Kandis</kelurahan>
+        <kecamatan>Tanjung Senang</kecamatan>
+    </alamat>
+
+    <sosialMedia>
+        <facebook>Muhammad Tyaz</facebook>
+        <instagram>@tyazgm</instagram>
+    </sosialMedia>
+</dataDiri>

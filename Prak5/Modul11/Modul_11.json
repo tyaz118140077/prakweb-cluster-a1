@@ -1,0 +1,16 @@
+{
+    "dataDiri":{
+        "nama": "Muhammad Tyaz Gagaman",
+        "jenisKelamin": "Laki-Laki",
+        "hobby": "rebahan",
+        "alamat":{
+            "jalan": "Pulau Pisang II",
+            "kelurahan": "Perumnas Way Kandis",
+            "kecamatan": "Tanjung Senang"
+        },
+        "sosialMedia":{
+            "facebook": "Muhammad Tyaz",
+            "instagram": "tyazgm"
+        }
+    }
+}
