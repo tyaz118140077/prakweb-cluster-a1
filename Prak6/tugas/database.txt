@@ -1,0 +1,10 @@
+create database pemweb_modul12;
+
+use pemweb_modul12;
+
+create table mahasiswa(
+nim char(15) not null primary key,
+nama varchar(50) not null,
+prodi varchar(50) not null,
+angkatan int(4) not null
+);
