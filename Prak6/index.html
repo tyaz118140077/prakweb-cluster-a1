@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script type="text/javascript" src="jquerry-3.5.1.min.js"></script>
+        <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
     </head>
     <body>
         <form method="POST" id="form_mahasiswa">
@@ -23,16 +23,16 @@
         <div id="tampil_data"></div>
         <script>
             $(document).ready(function(){
-                $('#tampil_data').load(tampil.php);
+                $('#tampil_data').load("tampil.php");
                 $('#btn_tampil').click(function(){
                     var data = $('#form_mahasiswa').serialize();
                     $.ajax({
                         type    : 'POST',
-                        url : "tambah_php",
-                        data:   data,
+                        url : "tambah.php",
+                        data: data,
                         cache: false,
                         success: function(data){
-                            $('*tampil_data').load("tampil.php");
+                            $('#tampil_data').load("tampil.php");
                         }
                     });
                 });

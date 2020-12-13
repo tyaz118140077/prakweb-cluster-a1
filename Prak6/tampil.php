@@ -6,7 +6,7 @@
         <th>Prodi</th>
     </tr>
     <?php
-        include  "koneksi.php";
+        include "koneksi.php";
         $hasil=mysqli_query($kon,"select * from mahasiswa order by nim asc");
         $no=0;
         while($data = mysqli_fetch_array($hasil)):
